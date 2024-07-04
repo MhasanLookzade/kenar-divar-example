@@ -25,9 +25,9 @@ SECRET_KEY = 'django-insecure-ptdgn^0%lglx$h40i7d%bny0p=*im6lb3+(iu5_=@r^@c8kvwv
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["kenar-example.darkube.app", "localhost", "ef7e-16-24-70-196.ngrok-free.app"]
+ALLOWED_HOSTS = ["kenaardiv.darkube.app", "localhost", "ef7e-16-24-70-196.ngrok-free.app"]
 
-CSRF_TRUSTED_ORIGINS = ['https://kenar-example.darkube.app', 'http://localhost:8000', 'http://127.0.0.1:8000']
+CSRF_TRUSTED_ORIGINS =['https://kenaardiv.darkube.app', 'http://localhost:8000', 'http://127.0.0.1:8000']
 
 DATABASE_HOST = os.getenv("DATABASE_HOST", "localhost")
 DATABASE_PORT = os.getenv("DATABASE_PORT", "5432")
